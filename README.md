@@ -1,3 +1,48 @@
+# new virtual env creation
+
+```
+python m venv <env_name>
+```
+
+# To activate virtual env
+```
+cd / project_name/scripts/activate
+```
+
+# django install 
+
+```
+python m install django
+```
+
+# project Install
+
+```
+django-admin startproject <project_name>
+```
+# app creation
+
+```
+django-admin startapp <appname>
+```
+
+# make migration to create database 
+
+```
+python manage.py makemigrations
+```
+
+# start migration to insert sample data into database 
+
+```
+python manage.py migrate
+```
+
+# to run project 
+```
+python manage.py runserver
+```
+
 # Django_Invoice_Application
 
     API to Post new Invoice / to get all invoice data from table : http:localhost:8000/api/invoices/
