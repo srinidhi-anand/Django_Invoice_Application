@@ -1,7 +1,7 @@
 # Django_Invoice_Application
 
     API to Post new Invoice / to get all invoice data from table : http:localhost:8000/api/invoices/
-    API to update exisiting Invoice / to get invoice data from table based on invoice id : http:localhost:8000/api/invoices/
+    API to update exisiting Invoice / to get invoice data from table based on invoice id : http:localhost:8000/api/invoices/<invoice_id>
 
 
 ![image](https://user-images.githubusercontent.com/50217774/159158888-070d02c2-50d5-45cd-bd8b-a368d996e68e.png)
